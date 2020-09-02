@@ -11,9 +11,9 @@
           </div>
         </div>
       </div>
-      <!-- <span class="trs-3">企业数字化转型最佳 技术合作伙伴！ </span>
+      <span class="trs-3">做企业数字化升级最佳技术合作伙伴！ </span>
       <span class="trs-4"
-        >致力于成为企业数字化转型的最佳长期技术伙伴，
+        >致力于成为企业数字化升级的最佳长期技术伙伴，
         为企业建设数字化经营操作系统</span
       >
       <div class="xuanfu">
@@ -23,7 +23,7 @@
             <span class="xuanfu-3">数势科技</span>
             <span class="suss-2">愿景：</span>
             <span class="xuanfu-2">
-              成为企业建设数字化经营操作系统的最佳长期技术伙伴，推动企业数字化转型，创造新的增长动力，实现数据价值普惠化
+              成为企业建设数字化经营操作系统的最佳长期技术伙伴，推动企业数字化升级，创造新的增长动力，实现数据价值普惠化
             </span>
             <span class="suss-2">使命：</span>
             <span class="xuanfu-2"
@@ -32,7 +32,7 @@
             <span class="xuanfu-4"></span>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
     <!-- <div class="mid-1">
       <div class="mid-11">
@@ -40,7 +40,6 @@
           <img src="./assets/advantages/advantagelogo.png" alt="" />
           <span class="mid-1111">我们的优势</span>
         </div>
-        <img src="./assets/advantages/advantage10.png" alt="" class="midimg1" />
       </div>
       <div class="mid-12">
         <div
@@ -53,7 +52,6 @@
           <span class="mid-1212">{{ ad.content }}</span>
         </div>
       </div>
-      <img src="./assets/advantages/advantage9.png" alt="" class="midimg2" />
     </div>
     <div class="mid-2">
       <div class="mid-21">
@@ -99,7 +97,6 @@
               </div>
             </div>
           </div>
-          <div class="midtfr"></div>
         </div>
       </div>
       <div class="midts">
@@ -138,25 +135,20 @@
     </div> -->
   </div>
 </template>
-<style type="text/css">
-@media screen and (min-width: 1000px) and (max-width: 1480px) {
-  .top {
-    height: 572.5px;
-    border: 1px solid red;
-  }
-}
-</style>
+
 <style>
-/* @import "assets/styles/font.css"; */
+@import "assets/styles/font.css";
 #app {
-  /* width:1920px; */
+  /* width:100%; */
   width: 100%;
   height: auto;
   background: rgba(255, 255, 255, 1);
   letter-spacing: 0.8px;
+  margin: auto auto;
 }
 .topright {
-  width: 1290px;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: flex-end;
 }
@@ -273,7 +265,7 @@
   color: #ffffff;
 }
 .head-1 {
-  width: 76.5%;
+  width: 1470px;
   height: 81px;
   margin: auto auto;
   display: flex;
@@ -286,9 +278,10 @@
   margin-top: 14px;
 }
 .bottom {
-  width: 1920px;
+  width: 100%;
   height: 388px;
   background: url("assets/bottom.png") no-repeat;
+  background-size: 100% 100%;
 }
 .bottom-1 {
   width: 1200px;
@@ -296,7 +289,7 @@
   margin: auto auto;
 }
 .bottom-2 {
-  /* width:373px; */
+  width: 500px;
   height: 16px;
   font-size: 14px;
   font-family: ssc;
@@ -380,11 +373,11 @@
   margin-top: 30px;
 }
 .mid-1 {
-  width: 1920px;
+  width: 100%;
   height: 1812px;
 }
 .mid-11 {
-  width: 1920px;
+  width: 100%;
   height: 786px;
 }
 .midimg1 {
@@ -416,7 +409,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: auto auto;
-  width: 1300px;
+  width: 1000px;
   height: 847px;
 }
 .mid-121 {
@@ -484,12 +477,13 @@
   margin-left: 50px;
 }
 .mid-2 {
-  width: 1920px;
+  width: 100%;
   height: 944px;
   background: url("assets/mid2bgpic.png") no-repeat;
+  background-size: 100% 100%;
 }
 .mid-21 {
-  width: 1920px;
+  width: 100%;
   height: 313px;
 }
 .mid-211 {
@@ -559,16 +553,16 @@
   margin-top: 55px;
 }
 .mid-3 {
-  width: 1920px;
+  width: 100%;
   height: 1940px;
 }
 .midtf {
-  width: 1920px;
+  width: 100%;
   height: 910px;
 }
 .midtftop {
   height: 352px;
-  width: 1920px;
+  width: 100%;
 }
 .midtfbottom {
   width: 1272px;
@@ -623,23 +617,24 @@
   height: 48px;
   background: rgba(0, 211, 255, 1);
 }
-.midtfr {
+/* .midtfr {
   margin-top: 90px;
   width: 572px;
   height: 572px;
   background: url("assets/digitizationpic2.png") no-repeat;
-}
+} */
 .midts {
-  width: 1920px;
+  width: 100%;
   height: 1027px;
   background: url("assets/mid3bgpic.png") no-repeat;
   display: flex;
+  background-size: 100% 100%;
 }
 .midts-1 {
   margin-left: 276px;
   width: 570px;
   height: 430px;
-  background: url("assets/midts-1.png") no-repeat;
+  /* background: url("assets/midts-1.png") no-repeat; */
   margin-top: 339px;
   margin-right: 30px;
 }
@@ -689,6 +684,13 @@
   flex-direction: column;
 }
 </style>
+<style scoped>
+@media screen and (min-width: 600px) and (max-width: 1600px) {
+  body {
+    background-color: red;
+  }
+}
+</style>
 <script>
 export default {
   name: "app",
@@ -711,7 +713,7 @@ export default {
           pic: require("./assets/icon7.png"),
           title: "数据BI建模解决方案",
           content:
-            "规一站式、智能化的建模平台，数仓全局规划、数据接入、规范管理、模型构建、模型服务的全流程建模能力"
+            "一站式、智能化的建模平台，数仓全局规划、数据接入、规范管理、模型构建、模型服务的全流程建模能力"
         },
         {
           pic: require("./assets/icon8.png"),
@@ -794,27 +796,27 @@ export default {
         {
           sty: "you5",
           pic: require("./assets/advantages/advantage5.png"),
-          title: "数字化转型实战经验",
-          content: "深耕大消费大零售，行业领先的线上线下全渠道运营经验"
+          title: "数字化升级实战经验",
+          content: "帮助多个大型集团企业和中型传统企业实现数字化升级"
         },
-        {
-          sty: "you6",
-          pic: require("./assets/advantages/advantage6.png"),
-          title: "成功案例众多",
-          content: "对内服务3k采销，对内对外赋能多个零售客户，收效显著"
-        },
+        // {
+        //   sty: "you6",
+        //   pic: require("./assets/advantages/advantage6.png"),
+        //   title: "成功案例众多",
+        //   content: "对内服务3k采销，对内对外赋能多个零售客户，收效显著"
+        // },
         {
           sty: "you7",
-          pic: require("./assets/advantages/advantage7.png"),
+          pic: require("./assets/advantages/advantage6.png"),
           title: "专业且敬业的团队",
-          content: "核心团队均来自京东/百度/阿里/微软/华为等顶级技术团队"
-        },
-        {
-          sty: "you1",
-          pic: require("./assets/advantages/advantage8.png"),
-          title: "",
-          content: ""
+          content: "核心团队均来自国内外行业领先的科技及互联网公司"
         }
+        // {
+        //   sty: "you1",
+        //   pic: require("./assets/advantages/advantage8.png"),
+        //   title: "",
+        //   content: ""
+        // }
       ]
     };
   }
