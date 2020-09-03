@@ -11,63 +11,68 @@
           </div>
         </div>
       </div>
-      <!-- <span class="trs-3">企业数字化转型最佳 技术合作伙伴！ </span>
+      <span class="trs-3">企业数字化转型最佳 技术合作伙伴！ </span>
       <span class="trs-4"
         >致力于成为企业数字化转型的最佳长期技术伙伴，
         为企业建设数字化经营操作系统</span
       >
-      <div class="xuanfu">
-        <div class="xuanfu-1">
-          <img src="./assets/xuanfu.png" alt="" />
-          <div class="suss">
-            <span class="xuanfu-3">数势科技</span>
-            <span class="suss-2">愿景：</span>
-            <span class="xuanfu-2">
-              成为企业建设数字化经营操作系统的最佳长期技术伙伴，推动企业数字化转型，创造新的增长动力，实现数据价值普惠化
-            </span>
-            <span class="suss-2">使命：</span>
-            <span class="xuanfu-2"
-              >为客户数字化经营提供更易用、更高效的技术服务</span
-            >
-            <span class="xuanfu-4"></span>
+
+      <div class="center">
+        <div class="xuanfu">
+          <div class="xuanfu-1">
+            <img src="./assets/xuanfu.png" alt="" />
+            <div class="suss">
+              <span class="xuanfu-3">数势科技</span>
+              <span class="suss-2">愿景：</span>
+              <span class="xuanfu-2">
+                成为企业建设数字化经营操作系统的最佳长期技术伙伴，推动企业数字化转型，创造新的增长动力，实现数据价值普惠化
+              </span>
+              <span class="suss-2">使命：</span>
+              <span class="xuanfu-2"
+                >为客户数字化经营提供更易用、更高效的技术服务</span
+              >
+              <span class="xuanfu-4"></span>
+            </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
-    <!-- <div class="mid-1">
-      <div class="mid-11">
-        <div class="mid-111">
-          <img src="./assets/advantages/advantagelogo.png" alt="" />
-          <span class="mid-1111">我们的优势</span>
+    <div class="mid-1">
+      <div class="center">
+        <div class="mid-11">
+          <div class="mid-111">
+            <img src="./assets/advantages/advantagelogo.png" alt="" />
+            <span class="mid-1111">我们的优势</span>
+          </div>
         </div>
-        <img src="./assets/advantages/advantage10.png" alt="" class="midimg1" />
-      </div>
-      <div class="mid-12">
-        <div
-          class="mid-121"
-          v-for="ad in advantages"
-          :key="ad.index"
-          :style="{ backgroundImage: 'url(' + ad.pic + ')' }"
-        >
-          <span class="mid-1211" :class="ad.sty">{{ ad.title }}</span>
-          <span class="mid-1212">{{ ad.content }}</span>
+        <div class="mid-12">
+          <div
+            class="mid-121"
+            v-for="ad in advantages"
+            :key="ad.index"
+            :style="{ backgroundImage: 'url(' + ad.pic + ')' }"
+          >
+            <span class="mid-1211" :class="ad.sty">{{ ad.title }}</span>
+            <span class="mid-1212">{{ ad.content }}</span>
+          </div>
         </div>
       </div>
-      <img src="./assets/advantages/advantage9.png" alt="" class="midimg2" />
     </div>
     <div class="mid-2">
-      <div class="mid-21">
-        <div class="mid-211">
-          <img src="./assets/corevalue1.png" alt="" />
-          <span class="mid-212">给客户带来的核心价值</span>
+      <div class="center">
+        <div class="mid-21">
+          <div class="mid-211">
+            <img src="./assets/corevalue1.png" alt="" />
+            <span class="mid-212">给客户带来的核心价值</span>
+          </div>
         </div>
-      </div>
-      <div class="mid-22">
-        <div class="corevaldiv" v-for="cd in corevaldiv" :key="cd.index">
-          <img :src="cd.pic" alt="" />
-          <span class="corevaldivfs">{{ cd.title }}</span>
-          <span class="corevaldivss"></span>
-          <span class="corevaldivts">{{ cd.content }}</span>
+        <div class="mid-22">
+          <div class="corevaldiv" v-for="cd in corevaldiv" :key="cd.index">
+            <img :src="cd.pic" alt="" />
+            <span class="corevaldivfs">{{ cd.title }}</span>
+            <span class="corevaldivss"></span>
+            <span class="corevaldivts">{{ cd.content }}</span>
+          </div>
         </div>
       </div>
     </div>
@@ -79,31 +84,33 @@
             <span class="midtff-1">数字化技术服务</span>
           </div>
         </div>
-        <div class="midtfbottom">
-          <div class="midtfl">
-            <div class="midtfl-1">
-              <div>
-                <span class="midtfl-3"> </span>
-                <span class="midtfl-2">数字化经营解决方案</span>
-              </div>
-              <div
-                v-for="dz in digitization"
-                :key="dz.index"
-                class="middleground"
-              >
-                <img :src="dz.pic" alt="" class="icon5" />
-                <span class="midts-21">
-                  <span class="suss-2">{{ dz.title }}</span>
-                  <span class="suss-3">{{ dz.content }}</span>
-                </span>
+        <div class="center">
+          <div class="midtfbottom">
+            <div class="midtfl">
+              <div class="midtfl-1">
+                <div>
+                  <span class="midtfl-3"> </span>
+                  <span class="midtfl-2">数字化经营解决方案</span>
+                </div>
+                <div
+                  v-for="dz in digitization"
+                  :key="dz.index"
+                  class="middleground"
+                >
+                  <img :src="dz.pic" alt="" class="icon5" />
+                  <span class="midts-21">
+                    <span class="suss-2">{{ dz.title }}</span>
+                    <span class="suss-3">{{ dz.content }}</span>
+                  </span>
+                </div>
               </div>
             </div>
+            <!-- <div class="midtfr"></div> -->
           </div>
-          <div class="midtfr"></div>
         </div>
       </div>
       <div class="midts">
-        <div class="midts-1"></div>
+        <!-- <div class="midts-1"></div> -->
         <div class="midts-2">
           <div>
             <span class="midtstf"> </span>
@@ -119,6 +126,7 @@
         </div>
       </div>
     </div>
+    <!--
     <div class="bottom">
       <div class="bottom-1">
         <div class="bottom-3">
@@ -139,10 +147,36 @@
   </div>
 </template>
 <style type="text/css">
-@media screen and (min-width: 1000px) and (max-width: 1480px) {
+@media screen and (min-width: 1000px) {
   .top {
-    height: 572.5px;
-    border: 1px solid red;
+    height: 606.6px;
+  }
+  .xuanfu {
+    top: 527.5px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .top {
+    height: 682.5px;
+  }
+  .xuanfu {
+    top: 583.5px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .top {
+    height: 758.3px;
+  }
+  .xuanfu {
+    top: 659.4px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .top {
+    height: 910px;
+  }
+  .xuanfu {
+    top: 791px;
   }
 }
 </style>
@@ -153,7 +187,11 @@
   width: 100%;
   height: auto;
   background: rgba(255, 255, 255, 1);
-  letter-spacing: 0.8px;
+}
+.center {
+  width: 1180px;
+  height: auto;
+  margin: auto auto;
 }
 .topright {
   width: 1290px;
@@ -202,7 +240,7 @@
   font-family: "ssc";
 }
 .xuanfu-2 {
-  width: 818px;
+  width: 650px;
   height: auto;
   font-size: 20px;
   font-family: digital;
@@ -217,16 +255,16 @@
   height: 38px;
   font-size: 34px;
   font-family: PingFang-SC-Semibold;
-  font-weight: 600;
+  font-weight: 400;
   color: rgba(0, 5, 20, 1);
   line-height: 48px;
   margin-bottom: 30px;
 }
 .suss {
   height: auto;
-  width: 924px;
-  padding-left: 49px;
-  padding-top: 15px;
+  width: 650px;
+  padding-left: 20px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -261,7 +299,7 @@
 }
 .top {
   width: 100%;
-  height: 910px;
+  /* height: 910px; */
   color: #ffffff;
   background: url("assets/top.png") no-repeat;
   background-size: 100% 100%;
@@ -360,31 +398,37 @@
   top: 130px;
 }
 .xuanfu {
-  width: 1618px;
-  height: 656px;
+  width: 1180px;
+  height: 530px;
   background: url("assets/suspension.png") no-repeat;
-  margin-top: 676px;
-  margin-left: 150px;
+  position: absolute;
+  /* top: 710px; */
+  /* margin-left: 150px; */
+  background-size: 100% 100%;
 }
 .xuanfu-1 {
   display: flex;
   height: 396px;
-  width: 1492px;
-  margin-left: 126px;
-  padding-top: 117px;
+  width: 1092px;
+  margin-left: 90px;
+  padding-top: 100px;
+}
+.xuanfu-1 img {
+  width: 348.5px;
+  height: 300.5px;
 }
 .xuanfu-4 {
-  width: 148px;
+  width: 100px;
   height: 8px;
   background: #0069ff;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .mid-1 {
-  width: 1920px;
+  width: 100%;
   height: 1812px;
 }
 .mid-11 {
-  width: 1920px;
+  width: 100%;
   height: 786px;
 }
 .midimg1 {
@@ -416,15 +460,18 @@
   display: flex;
   flex-wrap: wrap;
   margin: auto auto;
-  width: 1300px;
+  justify-content: space-between;
+  width: 1100px;
   height: 847px;
 }
 .mid-121 {
   display: flex;
   flex-direction: column;
-  width: 298px;
+  width: 320px;
   height: 412px;
   margin-right: 13px;
+  background-size: 100% 100%;
+  margin-bottom: 70px;
 }
 .mid-1211 {
   display: inline-block;
@@ -435,9 +482,10 @@
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
   line-height: 48px;
-  margin-top: 86px;
+  padding-top: 86px;
+  margin: 0 auto;
 }
-.you1 {
+/* .you1 {
   width: 132px;
   height: 23px;
   margin-left: 75px;
@@ -446,12 +494,13 @@
   width: 105px;
   height: 23px;
   margin-left: 84px;
-}
+}**/
 .you3 {
-  width: 178px;
-  height: 51px;
-  margin-left: 53px;
+  width: 170px;
+  height: 48px;
 }
+
+/** 
 .you4 {
   width: 104px;
   height: 23px;
@@ -471,7 +520,7 @@
   width: 215px;
   height: 23px;
   margin-left: 34px;
-}
+} */
 .mid-1212 {
   width: 192px;
   height: 90px;
@@ -484,12 +533,13 @@
   margin-left: 50px;
 }
 .mid-2 {
-  width: 1920px;
+  width: 100%;
   height: 944px;
   background: url("assets/mid2bgpic.png") no-repeat;
+  background-size: 100% 100%;
 }
 .mid-21 {
-  width: 1920px;
+  width: 100%;
   height: 313px;
 }
 .mid-211 {
@@ -511,7 +561,7 @@
 }
 .mid-22 {
   display: flex;
-  width: 1243px;
+  width: 1180px;
   height: 631px;
   margin: auto;
   justify-content: space-between;
@@ -519,8 +569,8 @@
 .corevaldiv {
   display: flex;
   flex-direction: column;
-  width: 353px;
-  height: 491px;
+  width: 310px;
+  height: 416px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 24px 38px 0px rgba(0, 3, 12, 0.08);
   border-radius: 10px;
@@ -529,7 +579,10 @@
 .corevaldiv img {
   height: 64px;
   width: 58px;
-  margin-top: 48px;
+  margin-top: 28px;
+}
+.corevaldiv span {
+  display: inline-block;
 }
 .corevaldivfs {
   display: inline-block;
@@ -540,7 +593,7 @@
   font-weight: 600;
   color: rgba(51, 51, 51, 1);
   line-height: 48px;
-  margin-top: 28px;
+  margin-top: 18px;
 }
 .corevaldivss {
   width: 55px;
@@ -549,32 +602,31 @@
   margin-top: 20px;
 }
 .corevaldivts {
-  width: 309px;
+  width: 280px;
   height: 196px;
-  font-size: 16px;
+  font-size: 15px;
   font-family: digital;
   font-weight: 400;
   color: rgba(51, 51, 51, 1);
   line-height: 30px;
-  margin-top: 55px;
+  margin-top: 20px;
 }
 .mid-3 {
-  width: 1920px;
+  width: 100%;
   height: 1940px;
 }
 .midtf {
-  width: 1920px;
+  width: 100%;
   height: 910px;
 }
 .midtftop {
   height: 352px;
-  width: 1920px;
+  width: 100%;
 }
 .midtfbottom {
-  width: 1272px;
+  width: 1180px;
   height: auto;
   display: flex;
-  margin-left: 342px;
 }
 .midtff {
   margin: auto;
@@ -630,7 +682,7 @@
   background: url("assets/digitizationpic2.png") no-repeat;
 }
 .midts {
-  width: 1920px;
+  width: 100%;
   height: 1027px;
   background: url("assets/mid3bgpic.png") no-repeat;
   display: flex;
@@ -795,25 +847,13 @@ export default {
           sty: "you5",
           pic: require("./assets/advantages/advantage5.png"),
           title: "数字化转型实战经验",
-          content: "深耕大消费大零售，行业领先的线上线下全渠道运营经验"
+          content: "帮助多个大型集团企业和中型传统企业实现数字化升级"
         },
         {
           sty: "you6",
           pic: require("./assets/advantages/advantage6.png"),
-          title: "成功案例众多",
-          content: "对内服务3k采销，对内对外赋能多个零售客户，收效显著"
-        },
-        {
-          sty: "you7",
-          pic: require("./assets/advantages/advantage7.png"),
           title: "专业且敬业的团队",
-          content: "核心团队均来自京东/百度/阿里/微软/华为等顶级技术团队"
-        },
-        {
-          sty: "you1",
-          pic: require("./assets/advantages/advantage8.png"),
-          title: "",
-          content: ""
+          content: "核心团队均来自国内外行业领先的科技及互联网公司"
         }
       ]
     };
